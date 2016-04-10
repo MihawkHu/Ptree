@@ -1,6 +1,7 @@
 # Android_pstree
 
 Implementation of process tree by dfs in Android virtual machine. 
+Operation System course project1, P1 and P2.
 
 Instructions:
 1.Add a new system call in android. Type $emulator -avd #Android vm name# -kernel #your kernel location# in terminal. Put sys_mycall.c and Makefile to a new folder and type $make in it. Push *.ko file to Android vm.
