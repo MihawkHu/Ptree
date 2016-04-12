@@ -1,0 +1,82 @@
+脚本启动于 2016年04月12日 星期二 12时27分27秒
+]0;mihawk@GG: ~/OsPrj-5140519019/P1[01;32mmihawk@GG[00m:[01;34m~/OsPrj-5140519019/P1[00m$ get[K[K[Kget[K[K[Kadb shell
+root@generic:/ # cd data/misc
+root@generic:/data/misc # ./ptree
+There are 72 processes!
+swapper,0,0,0,1,0,0
+	init,1,1,0,45,2,0
+		ueventd,45,1,1,0,61,0
+		logd,61,1,1,0,62,1036
+		vold,62,1,1,0,66,0
+		healthd,66,1,1,0,68,0
+		lmkd,68,1,1,0,69,0
+		servicemanager,69,1,1,0,70,1000
+		surfaceflinger,70,1,1,0,72,1000
+		qemud,72,1,1,0,78,0
+		sh,78,1,1,0,79,2000
+		adbd,79,1,1,1179,80,0
+			sh,1179,1,79,1183,1,0
+				ptree,1183,0,1179,0,1,0
+		netd,80,1,1,0,81,0
+		debuggerd,81,1,1,0,82,0
+		rild,82,1,1,0,83,1001
+		drmserver,83,1,1,0,84,1019
+		mediaserver,84,1,1,0,85,1013
+		installd,85,1,1,0,86,0
+		keystore,86,1,1,0,87,1017
+		main,87,1,1,243,88,0
+			system_server,243,1,87,0,489,1000
+			externalstorage,489,1,87,0,698,10006
+			putmethod.latin,698,1,87,0,713,10032
+			m.android.phone,713,1,87,0,721,1001
+			droid.launcher3,721,1,87,0,761,10007
+			d.process.acore,761,1,87,0,772,10002
+			viders.calendar,772,1,87,0,844,10001
+			id.printspooler,844,1,87,0,859,10040
+			d.process.media,859,1,87,0,895,10005
+			m.android.music,895,1,87,0,924,10035
+			ndroid.systemui,924,1,87,0,995,10013
+			ndroid.settings,995,1,87,0,1009,1000
+			droid.deskclock,1009,1,87,0,1023,10023
+			.quicksearchbox,1023,1,87,0,1039,10042
+			ndroid.keychain,1039,1,87,0,1060,1000
+			.android.dialer,1060,1,87,0,1079,10004
+			gedprovisioning,1079,1,87,0,1097,10008
+			ndroid.calendar,1097,1,87,0,1121,10019
+			m.android.email,1121,1,87,0,1136,10027
+			ndroid.exchange,1136,1,87,0,1,10029
+		gatekeeperd,88,1,1,0,89,1000
+		perfprofd,89,1,1,0,92,0
+		fingerprintd,92,1,1,0,1,1000
+	kthreadd,2,1,0,3,0,0
+		ksoftirqd/0,3,1,2,0,6,0
+		khelper,6,1,2,0,7,0
+		sync_supers,7,1,2,0,8,0
+		bdi-default,8,1,2,0,9,0
+		kblockd,9,1,2,0,10,0
+		rpciod,10,1,2,0,11,0
+		kworker/0:1,11,1,2,0,12,0
+		kswapd0,12,1,2,0,13,0
+		fsnotify_mark,13,1,2,0,14,0
+		crypto,14,1,2,0,25,0
+		kworker/u:1,25,1,2,0,30,0
+		mtdblock0,30,1,2,0,35,0
+		mtdblock1,35,1,2,0,40,0
+		mtdblock2,40,1,2,0,41,0
+		binder,41,1,2,0,42,0
+		deferwq,42,1,2,0,43,0
+		kworker/u:2,43,1,2,0,44,0
+		mmcqd/0,44,1,2,0,47,0
+		jbd2/mtdblock0-,47,1,2,0,48,0
+		ext4-dio-unwrit,48,1,2,0,53,0
+		jbd2/mtdblock1-,53,1,2,0,54,0
+		ext4-dio-unwrit,54,1,2,0,59,0
+		jbd2/mtdblock2-,59,1,2,0,60,0
+		ext4-dio-unwrit,60,1,2,0,104,0
+		kauditd,104,1,2,0,149,0
+		kworker/0:2,149,1,2,0,0,0
+root@generic:/data/misc # exit
+]0;mihawk@GG: ~/OsPrj-5140519019/P1[01;32mmihawk@GG[00m:[01;34m~/OsPrj-5140519019/P1[00m$ exit
+exit
+
+脚本完成，于 2016年04月12日 星期二 12时27分55秒
